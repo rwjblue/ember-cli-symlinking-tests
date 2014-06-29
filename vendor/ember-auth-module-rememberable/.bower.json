@@ -1,0 +1,14 @@
+{
+  "name": "ember-auth-module-rememberable",
+  "homepage": "https://github.com/heartsentwined/ember-auth-module-rememberable",
+  "version": "1.0.3",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.3",
+    "commit": "c9cf440cffc2bb2d383ec812fff2b7be531066c7"
+  },
+  "_source": "git://github.com/heartsentwined/ember-auth-module-rememberable.git",
+  "_target": "^1.0",
+  "_originalSource": "ember-auth-module-rememberable"
+}

@@ -1,0 +1,26 @@
+<% require 'ember_script' %>
+<% Sprockets.register_engine '.em', EmberScript::EmberScriptTemplate %>
+
+<% require 'ember/source' %>
+<% require 'handlebars/source' %>
+<% require 'ember/auth/request/dummy/source' %>
+<% require 'ember/auth/response/dummy/source' %>
+<% require 'ember/auth/strategy/dummy/source' %>
+<% require 'ember/auth/session/dummy/source' %>
+src_files:
+  - 'prereq.coffee'
+helpers:
+  - 'helpers/**/*'
+  - 'examples/**/*'
+spec_files:
+  - '**/*-spec.*'
+src_dir:
+  - lib
+  - vendor
+  - <%= ::Ember::Source.bundled_path_for(:production) %>/../
+  - <%= ::Handlebars::Source.bundled_path %>/../
+  - <%= ::Ember::Auth::Request::Dummy::Source.bundled_path %>/../
+  - <%= ::Ember::Auth::Response::Dummy::Source.bundled_path %>/../
+  - <%= ::Ember::Auth::Strategy::Dummy::Source.bundled_path %>/../
+  - <%= ::Ember::Auth::Session::Dummy::Source.bundled_path %>/../
+spec_dir: spec/javascripts

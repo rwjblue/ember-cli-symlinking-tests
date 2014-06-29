@@ -1,0 +1,32 @@
+{
+  "name": "ember-auth-module-ember-data",
+  "summary": "ember data integration module for ember-auth",
+  "description": "ember data integration module for ember-auth",
+  "keywords": ["ember", "emberjs", "ember.js", "auth", "authentication"],
+  "homepage": "http://ember-auth.herokuapp.com",
+  "bugs": "https://github.com/heartsentwined/ember-auth-module-ember-data/issues",
+  "version": "1.0.2",
+  "main": "dist/ember-auth-module-ember-data.js",
+
+  "author": {
+    "name": "heartsentwined",
+    "email": "heartsentwined.me@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "heartsentwined",
+      "email": "heartsentwined.me@gmail.com"
+    }
+  ],
+
+  "dependencies" : {
+    "ember-auth": ">= 9.0"
+  },
+
+  "engines": { "node": "*" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heartsentwined/ember-auth-module-ember-data"
+  },
+  "license": "MIT"
+}

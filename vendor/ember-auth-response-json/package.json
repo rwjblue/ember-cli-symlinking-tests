@@ -1,0 +1,32 @@
+{
+  "name": "ember-auth-response-json",
+  "summary": "json response adapter for ember-auth",
+  "description": "json response adapter for ember-auth",
+  "keywords": ["ember", "emberjs", "ember.js", "auth", "authentication"],
+  "homepage": "http://ember-auth.herokuapp.com",
+  "bugs": "https://github.com/heartsentwined/ember-auth-response-json/issues",
+  "version": "1.0.2",
+  "main": "dist/ember-auth-response-json.js",
+
+  "author": {
+    "name": "heartsentwined",
+    "email": "heartsentwined.me@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "heartsentwined",
+      "email": "heartsentwined.me@gmail.com"
+    }
+  ],
+
+  "dependencies" : {
+    "ember-auth": ">= 9.0"
+  },
+
+  "engines": { "node": "*" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heartsentwined/ember-auth-response-json"
+  },
+  "license": "MIT"
+}

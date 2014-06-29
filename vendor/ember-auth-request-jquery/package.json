@@ -1,0 +1,32 @@
+{
+  "name": "ember-auth-request-jquery",
+  "summary": "jquery request adapter for ember-auth",
+  "description": "jquery request adapter for ember-auth",
+  "keywords": ["ember", "emberjs", "ember.js", "auth", "authentication"],
+  "homepage": "http://ember-auth.herokuapp.com",
+  "bugs": "https://github.com/heartsentwined/ember-auth-request-jquery/issues",
+  "version": "1.0.3",
+  "main": "dist/ember-auth-request-jquery.js",
+
+  "author": {
+    "name": "heartsentwined",
+    "email": "heartsentwined.me@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "heartsentwined",
+      "email": "heartsentwined.me@gmail.com"
+    }
+  ],
+
+  "dependencies" : {
+    "ember-auth": ">= 9.0"
+  },
+
+  "engines": { "node": "*" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heartsentwined/ember-auth-request-jquery"
+  },
+  "license": "MIT"
+}

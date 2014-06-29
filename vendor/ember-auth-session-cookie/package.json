@@ -1,0 +1,32 @@
+{
+  "name": "ember-auth-session-cookie",
+  "summary": "cookie session adapter for ember-auth",
+  "description": "cookie session adapter for ember-auth",
+  "keywords": ["ember", "emberjs", "ember.js", "auth", "authentication"],
+  "homepage": "http://ember-auth.herokuapp.com",
+  "bugs": "https://github.com/heartsentwined/ember-auth-session-cookie/issues",
+  "version": "1.0.1",
+  "main": "dist/ember-auth-session-cookie.js",
+
+  "author": {
+    "name": "heartsentwined",
+    "email": "heartsentwined.me@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "heartsentwined",
+      "email": "heartsentwined.me@gmail.com"
+    }
+  ],
+
+  "dependencies" : {
+    "ember-auth": ">= 9.0"
+  },
+
+  "engines": { "node": "*" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heartsentwined/ember-auth-session-cookie"
+  },
+  "license": "MIT"
+}

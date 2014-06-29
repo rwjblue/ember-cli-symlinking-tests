@@ -1,0 +1,22 @@
+{
+  "name": "fastclick",
+  "main": "fastclick.js",
+  "ignore": [
+    "**/.*",
+    "component.json",
+    "package.json",
+    "Makefile",
+    "tests",
+    "examples"
+  ],
+  "homepage": "https://github.com/DiMarcello/fastclick",
+  "_release": "broccoli",
+  "_resolution": {
+    "type": "tag",
+    "tag": "broccoli",
+    "commit": "e91f777d0c080d625833c67d9e72e56e17477258"
+  },
+  "_source": "git://github.com/DiMarcello/fastclick.git",
+  "_target": "broccoli",
+  "_originalSource": "git://github.com/DiMarcello/fastclick"
+}

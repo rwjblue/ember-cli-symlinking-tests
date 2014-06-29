@@ -1,0 +1,14 @@
+{
+  "name": "ember-auth",
+  "homepage": "https://github.com/heartsentwined/ember-auth",
+  "version": "9.0.7",
+  "_release": "9.0.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v9.0.7",
+    "commit": "6555c0bc5e93715edf008b113b072f55374dc9f5"
+  },
+  "_source": "git://github.com/heartsentwined/ember-auth.git",
+  "_target": "~9.0",
+  "_originalSource": "ember-auth"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ember-auth-module-rememberable",
+  "summary": "rememberable module for ember-auth",
+  "description": "rememberable module for ember-auth",
+  "keywords": ["ember", "emberjs", "ember.js", "auth", "authentication"],
+  "homepage": "http://ember-auth.herokuapp.com",
+  "bugs": "https://github.com/heartsentwined/ember-auth-module-rememberable/issues",
+  "version": "1.0.3",
+  "main": "dist/ember-auth-module-rememberable.js",
+
+  "author": {
+    "name": "heartsentwined",
+    "email": "heartsentwined.me@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "heartsentwined",
+      "email": "heartsentwined.me@gmail.com"
+    }
+  ],
+
+  "dependencies" : {
+    "ember-auth": ">= 9.0"
+  },
+
+  "engines": { "node": "*" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heartsentwined/ember-auth-module-rememberable"
+  },
+  "license": "MIT"
+}

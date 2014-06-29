@@ -1,0 +1,14 @@
+{
+  "name": "ember-auth-module-ember-data",
+  "homepage": "https://github.com/heartsentwined/ember-auth-module-ember-data",
+  "version": "1.0.2",
+  "_release": "1.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.2",
+    "commit": "a09f70dd3794596c9d6a15e41db5db996eeac2e0"
+  },
+  "_source": "git://github.com/heartsentwined/ember-auth-module-ember-data.git",
+  "_target": "^1.0",
+  "_originalSource": "ember-auth-module-ember-data"
+}

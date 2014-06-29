@@ -1,0 +1,14 @@
+{
+  "name": "ember-auth-strategy-token",
+  "homepage": "https://github.com/heartsentwined/ember-auth-strategy-token",
+  "version": "1.0.2",
+  "_release": "1.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.2",
+    "commit": "81353228d2a1e62c8d79ad4bb6685e9aa90afdde"
+  },
+  "_source": "git://github.com/heartsentwined/ember-auth-strategy-token.git",
+  "_target": "^1.0",
+  "_originalSource": "ember-auth-strategy-token"
+}
