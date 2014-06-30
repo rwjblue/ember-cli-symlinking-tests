@@ -1,0 +1,13 @@
+{
+  "name": "siftjs",
+  "homepage": "https://github.com/crcn/sift.js",
+  "_release": "2d607a9138",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2d607a91389e03ceee8a8f48fbf79d22bb9836b3"
+  },
+  "_source": "git://github.com/crcn/sift.js.git",
+  "_target": "*",
+  "_originalSource": "siftjs"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "faker",
+  "homepage": "https://github.com/maksimr/faker",
+  "version": "0.0.2",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "c569778e6aa96d7b481c0e93724b07a5b0edd9cc"
+  },
+  "_source": "git://github.com/maksimr/faker.git",
+  "_target": "~0.0.2",
+  "_originalSource": "faker",
+  "_direct": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jquery-mutate",
+  "homepage": "https://github.com/jqui-dot-net/jQuery-mutate",
+  "_release": "60c7523779",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "60c752377982100dbe86120b096c0b323d26ba08"
+  },
+  "_source": "git://github.com/jqui-dot-net/jQuery-mutate.git",
+  "_target": "*",
+  "_originalSource": "jquery-mutate",
+  "_direct": true
+}

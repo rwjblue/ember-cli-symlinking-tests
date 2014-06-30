@@ -25,6 +25,8 @@
     "body-parser": "^1.2.0",
     "glob": "^3.2.9",
     "ember-cli-ic-ajax": "0.1.1",
-    "ember-cli-ember-data": "0.1.0"
+    "ember-cli-ember-data": "0.1.0",
+    "broccoli-static-compiler": "~0.1.4",
+    "broccoli-merge-trees": "~0.1.4"
   }
 }
