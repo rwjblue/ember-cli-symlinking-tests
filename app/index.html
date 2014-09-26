@@ -8,19 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{BASE_TAG}}
+    {{CONFIG_META}}
 
     <link rel="stylesheet" href="assets/vendor.css">
     <link rel="stylesheet" href="assets/some-test.css">
   </head>
   <body>
-    <script>
-      window.SomeTestENV = {{ENV}};
-      window.EmberENV = window.SomeTestENV.EmberENV;
-    </script>
     <script src="assets/vendor.js"></script>
     <script src="assets/some-test.js"></script>
-    <script>
-      window.SomeTest = require('some-test/app')['default'].create(SomeTestENV.APP);
-    </script>
   </body>
 </html>
