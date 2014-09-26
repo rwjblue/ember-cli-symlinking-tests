@@ -1,51 +1,63 @@
-# Some-test
+## Symlinking Tests
 
-This README outlines the details of collaborating on this Ember application.
+This repo is intended as a testing bed for the ongoing Broccoli speed improvements (mostly focused
+on introducing symlinks instead of copying files around).
 
-A short introduction of this app could easily go here.
+### Current (ember-cli master as of aa4e696)
 
-## Prerequisites
+Initial build:
 
-You will need the following things properly installed on your computer.
+```
+Build successful - 9256ms.
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+Slowest Trees                  | Total
+-------------------------------+----------------
+CustomStaticCompiler           | 3477ms
+TreeMerger (appAndDependencies) | 1449ms
+TreeMerger (ExternalTree)      | 1411ms
+TreeMerger (stylesAndVendor)   | 1406ms
+```
 
-## Installation
+Rebuild:
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+```
+file changed app.js
 
-## Running / Development
+Build successful - 11168ms.
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+Slowest Trees                  | Total
+-------------------------------+----------------
+CustomStaticCompiler           | 3511ms
+TreeMerger (ExternalTree)      | 2047ms
+TreeMerger (stylesAndVendor)   | 1933ms
+TreeMerger (appAndDependencies) | 1899ms
+```
 
-### Code Generators
+### With symlinking
 
-Make use of the many generators for code, try `ember help generate` for more details
+Initial build:
 
-### Running Tests
+```
+Build successful - 530ms.
 
-* `ember test`
-* `ember test --server`
+Slowest Trees                  | Total
+-------------------------------+----------------
+TreeMerger (vendor)            | 125ms
+Concat                         | 108ms
+ES3SafeFilter                  | 37ms
+ES6Concatenator                | 32ms
+```
 
-### Building
+Rebuild:
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+```
+file changed app.js
 
-### Deploying
+Build successful - 346ms.
 
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* ember: http://emberjs.com/
-* ember-cli: http://www.ember-cli.com/
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Slowest Trees                  | Total
+-------------------------------+----------------
+TreeMerger (vendor)            | 122ms
+Concat                         | 33ms
+TreeMerger (appAndDependencies) | 20ms
+```
