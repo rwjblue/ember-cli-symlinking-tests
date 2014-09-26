@@ -33,7 +33,7 @@ TreeMerger (stylesAndVendor)   | 1933ms
 TreeMerger (appAndDependencies) | 1899ms
 ```
 
-### With symlinking
+### With symlinking (ember-cli master as of aa4e696)
 
 Initial build:
 
@@ -61,3 +61,8 @@ TreeMerger (vendor)            | 122ms
 Concat                         | 33ms
 TreeMerger (appAndDependencies) | 20ms
 ```
+
+### WAT!!!! I WANT!!!
+
+This project includes a small shell script that can be used to replicate this process
+located in `bin/symlink-it-up.sh`.
