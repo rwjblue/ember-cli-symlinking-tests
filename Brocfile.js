@@ -1,7 +1,4 @@
 /* global require, module */
-var mergeTrees = require('broccoli-merge-trees');
-var pickFiles = require('broccoli-static-compiler');
-
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
@@ -116,16 +113,4 @@ app.import('bower_components/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphi
 app.import('bower_components/ember-simple-auth/ember-simple-auth.js');
 app.import('bower_components/ember-uploader/dist/ember-uploader.js');
  
-// Testing
-mocha = pickFiles('bower_components/mocha', {
-  srcDir: '/',
-  files: [ 'mocha.js', 'mocha.css' ],
-  destDir: '/assets'
-});
-chai = pickFiles('bower_components/chai', {
-  srcDir: '/',
-  files: [ 'chai.js' ],
-  destDir: '/assets'
-});
- 
-module.exports = mergeTrees([app.toTree(), mocha, chai]);
+module.exports = app.toTree();
