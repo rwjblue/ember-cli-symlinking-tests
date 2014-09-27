@@ -66,7 +66,7 @@ TreeMerger (appAndDependencies) | 20ms
 
 A branch has been setup on ember-cli that you can reference from your project's
 `package.json`. Simply use `stefanpenner/ember-cli#symlinking` instead of the specific
-version number.
+version number in your `package.json`.
 
 ### Packages needing to be published:
 
