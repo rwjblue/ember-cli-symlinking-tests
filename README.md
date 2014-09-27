@@ -1,9 +1,10 @@
 ## Symlinking Tests
 
 This repo is intended as a testing bed for the ongoing Broccoli speed improvements (mostly focused
-on introducing symlinks instead of copying files around).
+on introducing symlinks instead of copying files around). The project has ~5600 files (240MB)
+checked in in the `bower_components/` directory to ensure "slowness".
 
-### Current (ember-cli master as of aa4e696)
+### Current (stefanpenner/ember-cli#master as of aa4e696)
 
 Initial build:
 
@@ -33,7 +34,7 @@ TreeMerger (stylesAndVendor)   | 1933ms
 TreeMerger (appAndDependencies) | 1899ms
 ```
 
-### With symlinking (ember-cli master as of aa4e696)
+### With symlinking (stefanpenner/ember-cli#symlinking as of c364f4ef)
 
 Initial build:
 
