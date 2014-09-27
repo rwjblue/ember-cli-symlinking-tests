@@ -66,3 +66,12 @@ TreeMerger (appAndDependencies) | 20ms
 
 This project includes a small shell script that can be used to replicate this process
 located in `bin/symlink-it-up.sh`.
+
+### Packages needing to be published:
+
+* node-walk-sync
+* broccoli-merge-trees
+* broccoli-filter
+* broccoli-file-mover
+* broccoli-file-remover
+* broccoli-static-compiler
