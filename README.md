@@ -64,8 +64,9 @@ TreeMerger (appAndDependencies) | 20ms
 
 ### WAT!!!! I WANT!!!
 
-This project includes a small shell script that can be used to replicate this process
-located in `bin/symlink-it-up.sh`.
+A branch has been setup on ember-cli that you can reference from your project's
+`package.json`. Simply use `stefanpenner/ember-cli#symlinking` instead of the specific
+version number.
 
 ### Packages needing to be published:
 
