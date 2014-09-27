@@ -3,7 +3,7 @@
 PWD="`pwd`"
 
 function npmLinkAll {
-  for i in `find node_modules -name "$1" -type d -or -name "$1" -type l `;
+  for i in `find -L node_modules -name "$1" -type d -or -name "$1" -type l `;
   do
     echo $i
     rm -r "$i";
@@ -59,10 +59,10 @@ cd ember-cli
 npm install
 cd ..
 
+npmLinkAll ember-cli
 npmLinkAll walk-sync node-walk-sync
 npmLinkAll broccoli-filter
 npmLinkAll broccoli-static-compiler
 npmLinkAll broccoli-merge-trees
 npmLinkAll broccoli-file-remover
 npmLinkAll broccoli-file-mover
-npmLinkAll ember-cli
