@@ -11,6 +11,16 @@ function npmLinkAll {
   done;
 }
 
+function linkPackages {
+  npmLinkAll ember-cli
+  npmLinkAll broccoli-filter
+  npmLinkAll broccoli-static-compiler
+  npmLinkAll broccoli-merge-trees
+  npmLinkAll broccoli-file-remover
+  npmLinkAll broccoli-file-mover
+  npmLinkAll walk-sync node-walk-sync
+}
+
 # preparation
 rm -rf node-walk-sync broccoli-filter broccoli-static-compiler broccoli-merge-trees broccoli-file-remover broccoli-file-mover ember-cli node_modules
 npm cache clear
@@ -27,6 +37,7 @@ git clone git@github.com:sebastianseilund/broccoli-filter
 cd broccoli-filter
 git checkout make-it-so
 npm install
+linkPackages
 cd ..
 
 # broccoli-static-compiler
@@ -36,7 +47,7 @@ npm install
 cd ..
 
 # broccoli-merge-trees
-git clone git@github.com:joliss/broccoli-merge-trees
+git clone git@github.com:broccolijs/broccoli-merge-trees
 cd broccoli-merge-trees
 npm install
 cd ..
@@ -45,6 +56,7 @@ cd ..
 git clone git@github.com:rwjblue/broccoli-file-remover
 cd broccoli-file-remover
 npm install
+linkPackages
 cd ..
 
 # broccoli-file-mover
@@ -57,12 +69,7 @@ cd ..
 git clone git@github.com:stefanpenner/ember-cli
 cd ember-cli
 npm install
+linkPackages
 cd ..
 
-npmLinkAll ember-cli
-npmLinkAll walk-sync node-walk-sync
-npmLinkAll broccoli-filter
-npmLinkAll broccoli-static-compiler
-npmLinkAll broccoli-merge-trees
-npmLinkAll broccoli-file-remover
-npmLinkAll broccoli-file-mover
+linkPackages
